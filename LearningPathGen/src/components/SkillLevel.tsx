@@ -6,7 +6,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { ClipLoader } from 'react-spinners'; // Importing the spinner component
 
 // Initialize Generative AI instance
-const genAI = new GoogleGenerativeAI('AIzaSyBEVDPfeVUIiQiOGxK1X6whjiQSZJwSbFY');
+const genAI = new GoogleGenerativeAI('YOUR_GOOGLE_API_KEY_MODEL_gemini-pro');
 
 // Question structure
 interface Question {
