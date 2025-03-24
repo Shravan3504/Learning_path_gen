@@ -100,7 +100,7 @@ export const Results = () => {
 
     return { nodes, edges };
   };
-  const genAI = new GoogleGenerativeAI('AIzaSyBEVDPfeVUIiQiOGxK1X6whjiQSZJwSbFY');
+  const genAI = new GoogleGenerativeAI('YOUR_GOOGLE_API_TOKEN_OF_MODEL_gemini-pro');
   useEffect(() => {
     const generateLearningPath = async () => {
       try {
