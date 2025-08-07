@@ -28,11 +28,12 @@
 - **Scalable Architecture**: Clean separation of concerns
 
 ## 🚀 Quick Start
-frontend:
-cd LearningPathGen
+- frontend:
+cd LearningPathGen   //    
 npm run dev
 
-backend:
-cd backend
-cd api
+
+- backend:
+cd backend     //    
+cd api      //     
 node index.js
