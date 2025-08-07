@@ -32,14 +32,7 @@ frontend:
 cd LearningPathGen
 npm run dev
 
-bakcend:
+backend:
 cd backend
 cd api
 node index.js
-
-- **npm** or **yarn**
-- **MongoDB** (local installation or MongoDB Atlas)
-
-### Installation & Setup
-
-1. **Clone the repository**
