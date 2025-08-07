@@ -28,11 +28,15 @@
 - **Scalable Architecture**: Clean separation of concerns
 
 ## 🚀 Quick Start
+frontend:
+cd LearningPathGen
+npm run dev
 
-### Prerequisites
+bakcend:
+cd backend
+cd api
+node index.js
 
-Make sure you have the following installed:
-- **Node.js** (v18.0.0 or higher)
 - **npm** or **yarn**
 - **MongoDB** (local installation or MongoDB Atlas)
 
