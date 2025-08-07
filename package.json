@@ -1,0 +1,10 @@
+{
+  "name": "pathgen",
+  "scripts": {
+    "build": "cd learningpathgen && npm install && npm run build",
+    "dev": "concurrently \"cd learningpathgen && npm run dev\" \"cd backend && node server.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
